@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#logo{
+    width: 100px;
+    
+}
+#cabecera {
+    width: 100%;
+    height: 100px;
+        
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:40px;
+    font-style: italic; color: rgb(0, 0, 0);
+    background-color: chartreuse;
+}
+
+.nav {
+    width: 100%;
+    height: 40px;
+    background-color: aquamarine;
+}
+
+#menu_principal{
+    background-color: rgb(250, 149, 17);
+    font-size: 18px;color: black;
+    float: left;
+}
+
+
+
