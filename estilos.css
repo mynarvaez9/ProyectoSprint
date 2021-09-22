@@ -7,6 +7,16 @@
     width: 100px;
     
 }
+#a_button_register{
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 50px;
+}
 #cabecera {
     width: 100%;
     height: 100px;
@@ -28,10 +38,29 @@ h1 {
 }
 
 #menu_principal{
-    background-color: rgb(250, 149, 17);
-    font-size: 18px;color: black;
+    background-color: rgb(39, 35, 31);
+    font-size: 18px;color: rgb(245, 248, 248);
     float: left;
 }
-
+body {
+    font-family: arial, helvetica;
+    background: #e8e8e8;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background: #ef8354;
+}
+#form{
+    background-color: transparent;
+}
 
 
