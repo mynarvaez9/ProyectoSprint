@@ -1,8 +1,8 @@
 function validar_usuario(string) {
     if ((/^\w+([\.-]?)\w+/).test(string)){
         if (string.length<6 && string.length>12){
-           
-             
+        
+            
             if((/[A-Z]/).test(string.charAt(0))){
                 return true;
             }
@@ -13,7 +13,7 @@ function validar_usuario(string) {
         else{
             return false;
         }
-     
+    
     }
     else {
         return false;
@@ -23,8 +23,8 @@ function validar_usuario(string) {
 function validar_contrasena(string){
     if ((/\!|\@|\#|\-|\_/).test(string)){
         if (string.length<8 && string.length>16){
-           
-             
+
+            
             if((/[A-Z]/).test(string.charAt(0))){
                 return true;
             }
@@ -35,7 +35,7 @@ function validar_contrasena(string){
         else{
             return false;
         }
-     
+    
     }
     else {
         return false;
