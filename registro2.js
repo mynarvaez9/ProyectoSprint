@@ -61,7 +61,7 @@ function validar_nombreUsuario(string) {
 module.exports ={registros,filtrarPorContrasena,agregarRegistro};
 
 
-
+/*
 
 function ordenarArreglo_Apellido(arreglo){
 var arreglo =new Array();
@@ -76,3 +76,4 @@ function retornarRegistroMedio(args){
 
 module.exports.ordenarArreglo_Apellido = ordenarArreglo_Apellido();
 module.exports.ordenarArreglo_Apellido = retornarRegistroMedio();
+*/
