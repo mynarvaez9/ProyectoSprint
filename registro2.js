@@ -3,7 +3,7 @@ let registros = [];
 function agregarRegistro(){
     const nombre = document.getElementById("in_usuario")
     const pass = document.getElementById("in_contrasena")
-    let user_valid = validar_nombreUsuario(nombre);
+    let user_valid = validar_usuario(nombre);
     let contra_valid= validar_contrasena(pass);
     if (user_valid && contra_valid) {
         var usu_nuevo = document.getElementById("in_usuario").value
