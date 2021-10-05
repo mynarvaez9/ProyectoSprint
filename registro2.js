@@ -1,6 +1,8 @@
-let registros = [];
+var registros = [];
 
-function agregarRegistro(){
+
+
+/*function agregarRegistro(){
     const nombre = document.getElementById("in_usuario")
     const pass = document.getElementById("in_contrasena")
     let user_valid = validar_usuario(nombre);
