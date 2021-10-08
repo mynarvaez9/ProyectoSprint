@@ -25,9 +25,8 @@
 
         <h1>Formulario de registro</h1>
         <div id="form">
-        <form action="">
-            <label>nombres: *</label><input type="text" required id="CampoNombre"/><br><br>
-            <label>apellidos: *</label><input type="text" required id="CampoApellido"/><br><br>
+        <form>
+            <label>nombre completo: *</label><input type="text" required id="CampoNombre"/><br><br>
             <label>nombre de usuario: *</label><input type="text" required id="campoUsuario" onchange="validar_usuario(event.target.value)"/><br><br>
             <label>contraseña: *</label><input type="password" required id="CampoContrasena" onchange="validar_contrasena(event.target.value)"/><br><br>
             <label>confirmación de contraseña: * </label><input type="password" required id="CampoConfirmacionContrasena"/><br><br>
@@ -35,7 +34,7 @@
             <label>confirmación de correo electrónico: *</label><input type="email" required id="CampoConfirmacionEmail"/><br><br>
             <label> telefóno: * </label><input type="text" required id="CampoTelefono"/><br><br>
             <label>dirección de residencia: *</label><input type="text" required id="CampoDireccion"/><br><br>
-            <button type ="button" onclick="agregarRegistro()" id="Registrar">Registrar</button>
+            <button type ="button" onclick="agregarRegistro()">Registrar</button>
         </form>
 
         <br>
