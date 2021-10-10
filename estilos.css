@@ -68,36 +68,31 @@ p {
     float: center;
     align-content: center;
 }
+
 body {
     font-family: arial, helvetica;
     background: #e8e8e8;
 }
+
 .menu li a{
     text-decoration: none;
     color: white;
     padding: 20px;
     display: block;
 }
+
 .menu li{
     display: inline-block;
     text-align: center;
 }
+
 .menu li a:hover{
     background: #5eec4b;
 }
+
 #form{
     background-color: transparent;
     padding: 12px;
-}
-
-footer{
-    background-color: black;
-    text-align: center;
-    color: #5eec4b;
-    padding: 8px;
-    font-size: larger;}
-
-form {
     text-align: center;
     position: relative;
     top: 50%;
@@ -105,11 +100,21 @@ form {
     width: 250px;
 }
 
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: #5eec4b;
+    padding: 8px;
+    font-size: larger;
+}
+
+
 #IngresoPiloto{
     background-color: #5eec4b;
-    position: relative;
+    position:relative; 
     padding: 28px;
-    align-content: center;
+    
 }
 
 #buttonLogin{
@@ -119,4 +124,47 @@ form {
     padding: 8px;
     font-size: larger;
     
+}
+
+#RegistrarDatos{
+    background-color: black;
+    text-align: center;
+    color: #5eec4b;
+    padding:10px;
+    font-size: large;
+    border-radius: 15px;
+    
+}
+
+
+#RegistrarDatos:hover{
+    background-color:  #2ddf15;
+    text-align: center;
+    color: black;
+    padding:10px;
+    font-size: large;
+    border-radius: 15px;
+
+}
+
+#CampoNombre,#campoUsuario,#CampoContrasena,#CampoConfirmacionContrasena,
+#CampoEmail,#CampoConfirmacionEmail,#CampoTelefono,#CampoDireccion{
+    width: 350px;
+    height: 35px;
+    border-radius: 5px;
+
+}
+
+#usuarioPiloto,#passwordPiloto{
+    width: 350px;
+    height: 35px;
+    border-radius: 5px;
+    align-content: center;
+
+}
+
+.formulario{
+    background-image: url(/Carretera.jpg);
+    background-size: cover;
+
 }

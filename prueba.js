@@ -51,7 +51,8 @@ function agregarRegistro (){
     document.getElementById("CampoTelefono").value ="";
     document.getElementById("CampoDireccion").value = "";
 
+}; 
 
-    
-} 
+
+
 

@@ -12,29 +12,30 @@
         <script type="text/javascript" src="prueba.js"> </script>   
 </head>
 
-    <body>
+    <body class"body_formulario" id="hojaFormulario">
 
         <div class="cabecera">     
             <div class="principal">
             <div class="col-sm-12 bg-navegacion">
                 
-                <img src="LogoProyecto.png" id="LogoForm" alt="logoForm" width="130px">
+                <img src="imagenes/LogoProyecto.png" id="LogoForm" alt="logoForm" width="130px">
                 <h1>CENTRO DE ENSEÑANZA AUTOMOVILISTICA - AUTOCAR</h1>
             </div>
 
 
         <h1>Formulario de registro</h1>
-        <div id="form">
+        <div class= "formulario" id="form">
         <form>
-            <label>nombre completo: *</label><input type="text" required id="CampoNombre"/><br><br>
-            <label>nombre de usuario: *</label><input type="text" required id="campoUsuario" onchange="validar_usuario(event.target.value)"/><br><br>
-            <label>contraseña: *</label><input type="password" required id="CampoContrasena" onchange="validar_contrasena(event.target.value)"/><br><br>
-            <label>confirmación de contraseña: * </label><input type="password" required id="CampoConfirmacionContrasena"/><br><br>
-            <label>correo electrónico: * </label><input type="email" required id="CampoEmail"/><br><br>
-            <label>confirmación de correo electrónico: *</label><input type="email" required id="CampoConfirmacionEmail"/><br><br>
-            <label> telefóno: * </label><input type="text" required id="CampoTelefono"/><br><br>
-            <label>dirección de residencia: *</label><input type="text" required id="CampoDireccion"/><br><br>
-            <button type ="button" onclick="agregarRegistro()">Registrar</button>
+            
+            <label>nombre completo: *</label><input type="text" name= "nombre[]" placeholder="Ingrese nombre" required id="CampoNombre"/><br><br>
+            <label>nombre de usuario: *</label><input type="text" name="usuario[]" placeholder="Ingrese Usuario" required id="campoUsuario" onchange="validar_usuario(event.target.value)"/><br><br>
+            <label>contraseña: *</label><input type="password" name="contrasena[]" placeholder="Ingrese Contraseña" required id="CampoContrasena" onchange="validar_contrasena(event.target.value)"/><br><br>
+            <label>confirmación de contraseña: * </label><input type="password" name="confcontrasena[]" placeholder="Confirme Contraseña"  required id="CampoConfirmacionContrasena"/><br><br>
+            <label>correo electrónico: * </label><input type="email" name="correo[]" placeholder="Ingrese correo electrónico" required id="CampoEmail"/><br><br>
+            <label>confirmación de correo electrónico: *</label><input type="email" name="confcorreo[]" placeholder="Confirme correo electrónico" required id="CampoConfirmacionEmail"/><br><br>
+            <label> telefóno: * </label><input type="text" name="telefono[]" placeholder="Ingrese telefono" required id="CampoTelefono"/><br><br>
+            <label>dirección de residencia: *</label><input type="text" name="direccion[]" placeholder="Ingrese direccion" required id="CampoDireccion"/><br><br>
+            <button type ="button" name="registrar" id="RegistrarDatos" onclick="agregarRegistro()">Registrar</button>
         </form>
 
         <br>
