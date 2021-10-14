@@ -1,4 +1,3 @@
-
 var registros = [];
 
 function agregarRegistro (){
@@ -58,7 +57,6 @@ function agregarRegistro (){
 
 }; 
 
-
 var registro_apellidos = [{nombre:"Mickey", apellido:"Mouse", usuario:"mickeymouse70", contrasena:"Ratoncito!", confirmacioncontrasena:"Ratoncito!",correo:"mickeymouse@gmail.com",confirmacioncorreo:"mickeymouse@gmail.com",telefono:"01800987456",direccion:"Castillo Disney"},
                           {nombre:"Perla",apellido:"Pico",usuario:"perlapiko2010",contrasena:"Loritaperla_",confirmacioncontrasena:"Loritaperla_",correo:"perlapiko@cinema.com",confirmacioncorreo:"perlapiko@cinema.com", telefono:"023154978",direccion:"Jungla Amazonas"},
                           {nombre:"Speedy",apellido:"Gonzales",usuario:"speedygonzales67",contrasena:"Ratonveloz#",confirmacioncontrasena:"Ratonveloz#",correo:"speedygonzales@gmail.com",confirmacioncorreo:"speedygonzales@gmail.com", telefono:"312479865",direccion:"Rancho Hato Grande"},
@@ -82,31 +80,5 @@ var registro_apellidos = [{nombre:"Mickey", apellido:"Mouse", usuario:"mickeymou
                           {nombre:"Clara",apellido:"Luna",usuario:"lunitaclara",contrasena:"Moon2021_",confirmacioncontrasena:"Moon2021_",correo:"lunaclara@music.com.co",confirmacioncorreo:"lunaclara@music.com.co",telefono:"213587498",direccion:"Conjunto los turpiales"},
                           {nombre:"Clarck",apellido:"Kenn",usuario:"clarckenn",contrasena:"Planeta_",confirmacioncontrasena:"Planeta_",correo:"clarckenn@superman.com",confirmacioncorreo:"clarckenn@superman.com",telefono:"987564123",direccion:"SmallVille"}
                         ]
-                         
-console.log(registro_apellidos);
 
-
-    registro_apellidos.sort((a,b) => {  
-    
-    const apellidoA = a.apellido.toLowerCase();
-    const apellidoB = b.apellido.toLowerCase();
-
-    if (apellidoA < apellidoB) {
-        return -1;
-    }
-
-    if (apellidoA > apellidoB) {
-        return 1;
-    }
-
-    else 0;
-});        
-
-console.log(registro_apellidos);
-   
-
-
-    
-     
-
-
+                        

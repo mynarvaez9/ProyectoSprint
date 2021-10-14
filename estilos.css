@@ -147,7 +147,7 @@ footer{
 
 }
 
-#CampoNombre,#campoUsuario,#CampoContrasena,#CampoConfirmacionContrasena,
+#CampoNombre,#CampoApellido,#campoUsuario,#CampoContrasena,#CampoConfirmacionContrasena,
 #CampoEmail,#CampoConfirmacionEmail,#CampoTelefono,#CampoDireccion{
     width: 350px;
     height: 35px;
@@ -163,8 +163,8 @@ footer{
 
 }
 
-.formulario{
+/*.formulario{
     background-image: url(/Carretera.jpg);
     background-size: cover;
 
-}
+}*/

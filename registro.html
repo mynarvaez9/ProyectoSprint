@@ -27,7 +27,8 @@
         <div class= "formulario" id="form">
         <form>
             
-            <label>nombre completo: *</label><input type="text" name= "nombre[]" placeholder="Ingrese nombre" required id="CampoNombre"/><br><br>
+            <label>nombre: *</label><input type="text" name= "nombre[]" placeholder="Ingrese nombre" required id="CampoNombre"/><br><br>
+            <label>apellido: *</label><input type="text" name= "apellido[]" placeholder="Ingrese apellido" required id="CampoApellido"/><br><br>
             <label>nombre de usuario: *</label><input type="text" name="usuario[]" placeholder="Ingrese Usuario" required id="campoUsuario" onchange="validar_usuario(event.target.value)"/><br><br>
             <label>contraseña: *</label><input type="password" name="contrasena[]" placeholder="Ingrese Contraseña" required id="CampoContrasena" onchange="validar_contrasena(event.target.value)"/><br><br>
             <label>confirmación de contraseña: * </label><input type="password" name="confcontrasena[]" placeholder="Confirme Contraseña"  required id="CampoConfirmacionContrasena"/><br><br>
