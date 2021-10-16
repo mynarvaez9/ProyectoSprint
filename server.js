@@ -9,13 +9,21 @@ app.use(bodyParser.json())
 // define a root route
 app.use('/css', express.static('css'));
 app.use('/js', express.static('js'));
-app.use('/imgs', express.static('imgs'));
+app.use('/imagenes', express.static('imagenes'));
 app.get('/inicio', function(req, res){
     res.sendFile('index.html',
     {
         root: __dirname
     });
 });
+
+app.get('/registro', function(req, res){
+  res.sendFile('registro.html',
+  {
+      root: __dirname
+  });
+});
+
 app.get('/contactenos', (req, res) => {
   res.send('Hello contactenos')
 });
