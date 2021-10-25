@@ -1,0 +1,12 @@
+[
+{"type":"header","version":"5.1.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"automotores"},
+{"type":"table","name":"automotores","database":"automotores","data":
+[
+{"placa":"[MFL25F]","licencia de tránsito":"[10019833518745]","Clase de Vehiculo":"[MOTOCICLETA]","Numero de serie":"[9FLA213NM20154P]","Número de Motor":"[KLMNB48748754EDF]"},
+{"placa":"[MQG604]","licencia de tránsito":"[100879562145]","Clase de Vehiculo":"[AUTOMOVIL]","Numero de serie":"[9FLJ1256487DSA]","Número de Motor":"[JHGMN89754ASDF]"},
+{"placa":"[MYN83F]","licencia de tránsito":"[10019832010]","Clase de Vehiculo":"[MOTOCICLETA]","Numero de serie":"[9FLA21352487TREGNM]","Número de Motor":"[KLHG875421RTEDF]"},
+{"placa":"[QRN22D]","licencia de tránsito":"[10012449508]","Clase de Vehiculo":"[MOTOCICLETA]","Numero de serie":"[9F2B51506FAC47122]","Número de Motor":"[162FMJMQ288091]"}
+]
+}
+]

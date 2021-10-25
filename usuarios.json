@@ -1,0 +1,23 @@
+[
+{"type":"header","version":"5.1.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"usuarios"},
+{"type":"table","name":"usuarios","database":"usuarios","data":
+[
+{"Id":"1","usuario":"[sgonzales70]","nombre":"[Speedy]","apellido":"[Gonzales]","correo":"[sgonzales70@looneytones.com.mx]","contrasena":"[mouse123]"},
+{"Id":"2","usuario":"[agente007]","nombre":"[James]","apellido":"[bond]","correo":"[jamesbond@agente007.com]","contrasena":"[Golden123]"},
+{"Id":"3","usuario":"[minniemouse]","nombre":"[Minnie]","apellido":"[Mouse]","correo":"[minniemouse@disneylatino.com]","contrasena":"[House012]"},
+{"Id":"4","usuario":"[mickeymouse80]","nombre":"[Mickey]","apellido":"[Mouse]","correo":"[mickeymouse@disneylatino.com]","contrasena":"[House321]"},
+{"Id":"5","usuario":"[merymoon2000]","nombre":"[Mery]","apellido":"[Moon]","correo":"[merymoon@club10.com.co]","contrasena":"[Sweetcat123]"},
+{"Id":"6","usuario":"[elsa2008]","nombre":"[Elsa]","apellido":"[Frozen]","correo":"[elsafrozen@disneylatino.com]","contrasena":"[olaf543]"},
+{"Id":"7","usuario":"[aureliowow]","nombre":"[Aurelio]","apellido":"[Cheverony]","correo":"[aureliocheverony@club10.com.co]","contrasena":"[lobitorojo321]"},
+{"Id":"8","usuario":"[nbaez1991]","nombre":"[Nairo]","apellido":"[Baez]","correo":"[nbaez@corposalud.edu.co]","contrasena":"[enfermero2803]"},
+{"Id":"9","usuario":"[jdalvira]","nombre":"[Diego]","apellido":"[Alvira]","correo":"[jdalvira@caracoltv.com.co]","contrasena":"[CaracolTV012]"},
+{"Id":"10","usuario":"[hannafrozen]","nombre":"[Hanna]","apellido":"[Frozen]","correo":"[hannafrozen@disneylatino.com]","contrasena":"[Castillo567]"},
+{"Id":"11","usuario":"[ppicapiedra]","nombre":"[Pedro]","apellido":"[Picapiedra]","correo":"[ppicapiedra@yabbadabbadoo.com]","contrasena":"[Pebbles000]"},
+{"Id":"12","usuario":"[sheriffwoody]","nombre":"[Woody]","apellido":"[Pride]","correo":"[woodypride@toystory.com]","contrasena":"[Pixar001]"},
+{"Id":"13","usuario":"[mwazowski]","nombre":"[Mike]","apellido":"[Wazowski]","correo":"[mwazowski@toystory.com]","contrasena":"[Pixar321]"},
+{"Id":"14","usuario":"[sullivan14]","nombre":"[James]","apellido":"[Sullivan]","correo":"[jsullivan@monsters.com]","contrasena":"[Sulley000]"},
+{"Id":"15","usuario":"[geppetto]","nombre":"[Geppetto]","apellido":"[collodi]","correo":"[geppetto@disneypixar.com]","contrasena":"[pinocho321]"}
+]
+}
+]
